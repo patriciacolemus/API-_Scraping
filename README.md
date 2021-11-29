@@ -29,7 +29,7 @@ Search parameters:
 - result_type = it refers to the type of tweets you want to search. The available options are: 
    - - mixed : Include both popular and real time results in the response.
    - - recent : return only the most recent results in the response
-   - popular : return only the most popular results in the response.
+   - - popular : return only the most popular results in the response.
 - max_id = allows every search to have different entries
 
 ```
