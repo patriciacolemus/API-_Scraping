@@ -57,29 +57,30 @@ data = [[tweet.user.id_str, tweet.user.screen_name, tweet.text, tweet.id_str, tw
 ```
 ##### Variables 
 Here are the list of variables we can find while working with Twitter API: 
-*created_at* : The time the status was posted.
-*id_str* : The ID of the status as a string.
-*text* : The text of the status.
-*entities* : The parsed entities of the status such as hashtags, URLs etc.
-*source* : The source of the status.
-*source_url* : The URL of the source of the status.
-*in_reply_to_status_id* : The ID of the status being replied to.
-*in_reply_to_status_id_str* : The ID of the status being replied to in as a string.
-*in_reply_to_user_id* : The ID of the user being replied to.
-*in_reply_to_user_id_str* : The ID of the user being replied to as a string.
-*in_reply_to_screen_name* : The screen name of the user being replied to
-*user* : The User object of the poster of the status.
-*geo* : The geo object of the status.
-*coordinates* : The coordinates of the status.
-*place* : The place of the status.
-*contributors* : The contributors of the status.
-*is_quote_status* : Indicates whether the status is a quoted status or not.
-*retweet_count* : The number of retweets of the status.
-*favorite_count* : The number of likes of the status.
-*favorited* : Indicates whether the status has been favourited by the authenticated user or not.
-*retweeted* : Indicates whether the status has been retweeted by the authenticated user or not.
-*possibly_sensitive* : Indicates whether the status is sensitive or not.
-*lang* : The language of the status.
+
+- *created_at* : The time the status was posted.
+- *id_str* : The ID of the status as a string.
+- *text* : The text of the status.
+- *entities* : The parsed entities of the status such as hashtags, URLs etc.
+- *source* : The source of the status.
+- *source_url* : The URL of the source of the status.
+- *in_reply_to_status_id* : The ID of the status being replied to.
+- *in_reply_to_status_id_str* : The ID of the status being replied to in as a string.
+- *in_reply_to_user_id* : The ID of the user being replied to.
+- *in_reply_to_user_id_str* : The ID of the user being replied to as a string.
+- *in_reply_to_screen_name* : The screen name of the user being replied to
+- *user* : The User object of the poster of the status.
+- *geo* : The geo object of the status.
+- *coordinates* : The coordinates of the status.
+- *place* : The place of the status.
+- *contributors* : The contributors of the status.
+- *is_quote_status* : Indicates whether the status is a quoted status or not.
+- *retweet_count* : The number of retweets of the status.
+- *favorite_count* : The number of likes of the status.
+- *favorited* : Indicates whether the status has been favourited by the authenticated user or not.
+- *retweeted* : Indicates whether the status has been retweeted by the authenticated user or not.
+- *possibly_sensitive* : Indicates whether the status is sensitive or not.
+- *lang* : The language of the status.
 
 #### Data cleaning
 All empty rows were replace with 0 value. 
